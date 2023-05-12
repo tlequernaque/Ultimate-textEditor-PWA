@@ -23,7 +23,7 @@ This application takes an existing text editor app and adds functionality for it
 Heroku deployed link: [Ultimate-textEditor-PWA](https://ultimate-texteditor-pwa.herokuapp.com/)
 
 ## Screenshot
-![image](./assets/insomnia.png)
+![image](./assets/ultimate-texteditor-pwa.herokuapp.com_.png)
 
 
 ## Installation
@@ -33,12 +33,13 @@ dependancies required to sucessfully run the app.
 
 
 ## Usage (Instructions/How-To Use)
-To use the package run 'npm start' which will sync the db in mongo 
-and start the server.
+To use the package, run 'npm start', to run the site as a local host.
+
+To use link, click on the live link above, to run the program on the browser or click 'install' to run program offline.
 
 
 ## Technologies
-JavaScript, Node.js, Express.js, MongoDB, Mongoose
+JavaScript, Node.js, Express.js, Webpack,IDB, Babel.
 
 
 ## License
@@ -71,10 +72,7 @@ Preview:
 
 
 ## Tests
-Endpoints were tested with Insomnia. 
-If you should find any issues, see above on contibuting guidelines 
-or submit a issue with a detailed explanation on how to recreate 
-the bug.
+Tests on the application have been completed with Lighthouse -- an applications tab in Chrome Dev Tools -- to ensure all items store properly and cache is accepted.
 
 
 ## Credits
@@ -114,4 +112,4 @@ target="_blank">Terry Lequernaque</a>:</strong> Full-Stack
 Developer</li>  
 
 - - - - 
-© 2023 Neat Social Network API, Inc. All Rights Reserved.
+© 2023 Ultimate-textEditor-PWA, Inc. All Rights Reserved.
