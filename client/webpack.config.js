@@ -56,7 +56,7 @@ module.exports = () => {
           use: ['style-loader', 'css-loader'],
         },
         {
-          test: /\.m?js$/,
+          test: /\.m?js$/g,
           exclude: /node_modules/,
           // We use babel-loader in order to use ES6.
           use: {
